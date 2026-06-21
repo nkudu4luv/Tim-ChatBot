@@ -1,0 +1,1636 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good afternoon"
+      ],
+      "responses": [
+        "Hello! I'm your SME assistant. How can I help your business today?"
+      ]
+    },
+    {
+      "tag": "farewell",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you",
+        "Talk later",
+        "I am done"
+      ],
+      "responses": [
+        "Goodbye! Wishing your business success."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "I appreciate",
+        "Much appreciated",
+        "Great help"
+      ],
+      "responses": [
+        "You're welcome! I'm here to support your business anytime."
+      ]
+    },
+    {
+      "tag": "business_registration",
+      "patterns": [
+        "Register business Nigeria",
+        "CAC registration",
+        "Start business legally",
+        "Business name registration",
+        "Register company"
+      ],
+      "responses": [
+        "Register your business through the Corporate Affairs Commission (CAC)."
+      ]
+    },
+    {
+      "tag": "tin_registration",
+      "patterns": [
+        "Get TIN Nigeria",
+        "Tax ID",
+        "Register tax",
+        "FIRS registration",
+        "Business tax number"
+      ],
+      "responses": [
+        "You can obtain a Tax Identification Number from FIRS after business registration."
+      ]
+    },
+    {
+      "tag": "vat_rules",
+      "patterns": [
+        "VAT Nigeria",
+        "Value added tax",
+        "Charge VAT",
+        "VAT requirement",
+        "VAT registration"
+      ],
+      "responses": [
+        "Businesses must charge 7.5% VAT on taxable goods and services."
+      ]
+    },
+    {
+      "tag": "startup_cost",
+      "patterns": [
+        "Startup cost",
+        "Cost to start business",
+        "Initial capital",
+        "Business startup budget",
+        "Starting expenses"
+      ],
+      "responses": [
+        "Estimate startup costs including rent, inventory, equipment, and marketing."
+      ]
+    },
+    {
+      "tag": "funding_options",
+      "patterns": [
+        "Funding business",
+        "Raise capital",
+        "Get investors",
+        "Business funding Nigeria",
+        "Startup funding"
+      ],
+      "responses": [
+        "Funding options include loans, grants, savings, and investors."
+      ]
+    },
+    {
+      "tag": "bank_loans",
+      "patterns": [
+        "Get bank loan",
+        "Business loan Nigeria",
+        "Loan requirements",
+        "SME loans",
+        "Bank financing"
+      ],
+      "responses": [
+        "Banks require financial records, collateral, and repayment plans."
+      ]
+    },
+    {
+      "tag": "microfinance",
+      "patterns": [
+        "Microfinance loan",
+        "Small loans Nigeria",
+        "Microfinance banks",
+        "Quick loan",
+        "SME micro loans"
+      ],
+      "responses": [
+        "Microfinance banks provide smaller loans with easier requirements."
+      ]
+    },
+    {
+      "tag": "grant_funding",
+      "patterns": [
+        "Free grants",
+        "SME grants Nigeria",
+        "Government grants",
+        "Apply grant",
+        "Funding without repayment"
+      ],
+      "responses": [
+        "Check government and NGO grant programs for SMEs."
+      ]
+    },
+    {
+      "tag": "budgeting",
+      "patterns": [
+        "Business budget",
+        "Plan finances",
+        "Budget planning",
+        "Control expenses",
+        "Budget strategy"
+      ],
+      "responses": [
+        "Create a budget to track income and control expenses."
+      ]
+    },
+    {
+      "tag": "cashflow",
+      "patterns": [
+        "Cash flow",
+        "Cash problems",
+        "Business liquidity",
+        "Money flow",
+        "Cash shortage"
+      ],
+      "responses": [
+        "Manage inflows and outflows carefully to maintain liquidity."
+      ]
+    },
+    {
+      "tag": "profit_margin",
+      "patterns": [
+        "Profit margin",
+        "Calculate profit",
+        "Business profit",
+        "Mark up",
+        "Gain margin"
+      ],
+      "responses": [
+        "Profit margin is revenue minus cost expressed as a percentage."
+      ]
+    },
+    {
+      "tag": "break_even",
+      "patterns": [
+        "Break even",
+        "Profit start point",
+        "When profit begins",
+        "Break even analysis",
+        "Cost recovery"
+      ],
+      "responses": [
+        "Break-even occurs when revenue equals total cost."
+      ]
+    },
+    {
+      "tag": "pricing",
+      "patterns": [
+        "Set price",
+        "Pricing strategy",
+        "Product price",
+        "Competitive pricing",
+        "Profit pricing"
+      ],
+      "responses": [
+        "Price based on cost, demand, and competitor pricing."
+      ]
+    },
+    {
+      "tag": "cost_reduction",
+      "patterns": [
+        "Reduce cost",
+        "Cut expenses",
+        "Lower business cost",
+        "Save money business",
+        "Cost efficiency"
+      ],
+      "responses": [
+        "Eliminate waste and negotiate better supplier deals."
+      ]
+    },
+    {
+      "tag": "recordkeeping",
+      "patterns": [
+        "Keep records",
+        "Business bookkeeping",
+        "Track sales",
+        "Financial records",
+        "Business data"
+      ],
+      "responses": [
+        "Maintain accurate records of all financial transactions."
+      ]
+    },
+    {
+      "tag": "accounting_tools",
+      "patterns": [
+        "Accounting software",
+        "Bookkeeping tools",
+        "Track finances",
+        "Accounting system",
+        "Finance apps"
+      ],
+      "responses": [
+        "Use tools like QuickBooks or Excel for accounting."
+      ]
+    },
+    {
+      "tag": "tax_compliance",
+      "patterns": [
+        "Pay tax Nigeria",
+        "Tax rules",
+        "Business tax",
+        "Tax compliance",
+        "Avoid tax penalty"
+      ],
+      "responses": [
+        "File and pay taxes on time to avoid penalties."
+      ]
+    },
+    {
+      "tag": "business_plan",
+      "patterns": [
+        "Business plan",
+        "Write plan",
+        "Startup plan",
+        "Business proposal",
+        "Plan document"
+      ],
+      "responses": [
+        "A business plan outlines goals, strategy, and finances."
+      ]
+    },
+    {
+      "tag": "market_research",
+      "patterns": [
+        "Market research",
+        "Know customers",
+        "Analyze market",
+        "Customer demand",
+        "Market study"
+      ],
+      "responses": [
+        "Research your market to understand demand and competition."
+      ]
+    },
+    {
+      "tag": "target_market",
+      "patterns": [
+        "Target customers",
+        "Customer segment",
+        "Ideal customer",
+        "Market targeting",
+        "Audience"
+      ],
+      "responses": [
+        "Define your ideal customers based on demographics and needs."
+      ]
+    },
+    {
+      "tag": "competition",
+      "patterns": [
+        "Competitors",
+        "Business competition",
+        "Competitor analysis",
+        "Market rivals",
+        "Compare businesses"
+      ],
+      "responses": [
+        "Study competitors to find your advantage."
+      ]
+    },
+    {
+      "tag": "branding",
+      "patterns": [
+        "Brand identity",
+        "Build brand",
+        "Logo design",
+        "Brand awareness",
+        "Business image"
+      ],
+      "responses": [
+        "Develop a consistent brand identity and message."
+      ]
+    },
+    {
+      "tag": "marketing_strategy",
+      "patterns": [
+        "Marketing plan",
+        "Promote business",
+        "Get customers",
+        "Marketing strategy",
+        "Advertise"
+      ],
+      "responses": [
+        "Use both online and offline marketing channels."
+      ]
+    },
+    {
+      "tag": "digital_marketing",
+      "patterns": [
+        "Online marketing",
+        "Social media ads",
+        "Digital promotion",
+        "Internet marketing",
+        "Facebook ads"
+      ],
+      "responses": [
+        "Leverage social media and SEO to reach customers."
+      ]
+    },
+    {
+      "tag": "sales_strategy",
+      "patterns": [
+        "Increase sales",
+        "Sell more",
+        "Sales plan",
+        "Close deals",
+        "Boost revenue"
+      ],
+      "responses": [
+        "Focus on customer needs and effective communication."
+      ]
+    },
+    {
+      "tag": "customer_service",
+      "patterns": [
+        "Customer service",
+        "Handle complaints",
+        "Customer support",
+        "Client satisfaction",
+        "Service quality"
+      ],
+      "responses": [
+        "Good customer service builds loyalty and trust."
+      ]
+    },
+    {
+      "tag": "customer_retention",
+      "patterns": [
+        "Keep customers",
+        "Repeat buyers",
+        "Customer loyalty",
+        "Retention strategy",
+        "Returning clients"
+      ],
+      "responses": [
+        "Offer value and maintain good relationships."
+      ]
+    },
+    {
+      "tag": "inventory",
+      "patterns": [
+        "Manage stock",
+        "Inventory control",
+        "Stock levels",
+        "Warehouse",
+        "Product storage"
+      ],
+      "responses": [
+        "Monitor inventory to avoid overstocking or stockouts."
+      ]
+    },
+    {
+      "tag": "supply_chain",
+      "patterns": [
+        "Supply chain",
+        "Logistics",
+        "Distribution",
+        "Supplier management",
+        "Delivery system"
+      ],
+      "responses": [
+        "Optimize supply chain to reduce delays and cost."
+      ]
+    },
+    {
+      "tag": "procurement",
+      "patterns": [
+        "Buy goods",
+        "Procurement",
+        "Purchase inventory",
+        "Supplier sourcing",
+        "Stock buying"
+      ],
+      "responses": [
+        "Compare suppliers and negotiate prices."
+      ]
+    },
+    {
+      "tag": "ecommerce",
+      "patterns": [
+        "Sell online",
+        "Ecommerce Nigeria",
+        "Online store",
+        "Website selling",
+        "Digital shop"
+      ],
+      "responses": [
+        "Use platforms like Shopify or Jumia to sell online."
+      ]
+    },
+    {
+      "tag": "payment_systems",
+      "patterns": [
+        "Accept payments",
+        "POS",
+        "Online payment",
+        "Transfer payment",
+        "Payment gateway"
+      ],
+      "responses": [
+        "Offer multiple payment options for convenience."
+      ]
+    },
+    {
+      "tag": "business_location",
+      "patterns": [
+        "Business location",
+        "Where to open shop",
+        "Site selection",
+        "Best place business",
+        "Location factors"
+      ],
+      "responses": [
+        "Choose locations with high traffic and accessibility."
+      ]
+    },
+    {
+      "tag": "expansion",
+      "patterns": [
+        "Expand business",
+        "Open branch",
+        "Scale business",
+        "Growth strategy",
+        "Business expansion"
+      ],
+      "responses": [
+        "Expand when operations are stable and profitable."
+      ]
+    },
+    {
+      "tag": "franchise",
+      "patterns": [
+        "Franchise",
+        "Franchise business",
+        "Expand via franchise",
+        "Business model franchise",
+        "Franchise system"
+      ],
+      "responses": [
+        "Franchising allows others to use your brand for a fee."
+      ]
+    },
+    {
+      "tag": "partnership",
+      "patterns": [
+        "Business partner",
+        "Partnership",
+        "Co founder",
+        "Joint venture",
+        "Partner agreement"
+      ],
+      "responses": [
+        "Clearly define roles and responsibilities in partnerships."
+      ]
+    },
+    {
+      "tag": "legal_compliance",
+      "patterns": [
+        "Business law",
+        "Legal requirements",
+        "Compliance Nigeria",
+        "Business law Nigeria",
+        "Legal issues"
+      ],
+      "responses": [
+        "Ensure compliance with all relevant laws and regulations."
+      ]
+    },
+    {
+      "tag": "contracts",
+      "patterns": [
+        "Contract",
+        "Agreement",
+        "Legal document",
+        "Supplier contract",
+        "Business contract"
+      ],
+      "responses": [
+        "Contracts protect your business relationships."
+      ]
+    },
+    {
+      "tag": "insurance",
+      "patterns": [
+        "Business insurance",
+        "Protect business",
+        "Risk cover",
+        "Insurance Nigeria",
+        "Coverage"
+      ],
+      "responses": [
+        "Insurance protects against unexpected losses."
+      ]
+    },
+    {
+      "tag": "risk_management",
+      "patterns": [
+        "Risk management",
+        "Business risks",
+        "Identify risks",
+        "Handle risk",
+        "Risk plan"
+      ],
+      "responses": [
+        "Identify risks early and create mitigation plans."
+      ]
+    },
+    {
+      "tag": "employee_hiring",
+      "patterns": [
+        "Hire staff",
+        "Recruit employees",
+        "Employment",
+        "Staff hiring",
+        "Find workers"
+      ],
+      "responses": [
+        "Hire skilled staff aligned with your business goals."
+      ]
+    },
+    {
+      "tag": "staff_training",
+      "patterns": [
+        "Train staff",
+        "Employee training",
+        "Skill development",
+        "Workforce training",
+        "Improve staff"
+      ],
+      "responses": [
+        "Train employees regularly to improve performance."
+      ]
+    },
+    {
+      "tag": "performance_management",
+      "patterns": [
+        "Staff performance",
+        "Evaluate employees",
+        "Appraisal",
+        "Productivity",
+        "Performance review"
+      ],
+      "responses": [
+        "Set KPIs and review employee performance regularly."
+      ]
+    },
+    {
+      "tag": "payroll",
+      "patterns": [
+        "Pay salary",
+        "Payroll system",
+        "Wages",
+        "Salary structure",
+        "Staff payment"
+      ],
+      "responses": [
+        "Use payroll systems for accurate salary management."
+      ]
+    },
+    {
+      "tag": "time_management",
+      "patterns": [
+        "Manage time",
+        "Productivity",
+        "Work schedule",
+        "Efficiency",
+        "Time planning"
+      ],
+      "responses": [
+        "Plan tasks and prioritize effectively."
+      ]
+    },
+    {
+      "tag": "product_development",
+      "patterns": [
+        "Develop product",
+        "New product",
+        "Innovation",
+        "Improve product",
+        "Product idea"
+      ],
+      "responses": [
+        "Focus on solving customer problems with your product."
+      ]
+    },
+    {
+      "tag": "quality_control",
+      "patterns": [
+        "Product quality",
+        "Quality assurance",
+        "Improve quality",
+        "Control quality",
+        "Standards"
+      ],
+      "responses": [
+        "Maintain high quality standards to satisfy customers."
+      ]
+    },
+    {
+      "tag": "customer_feedback",
+      "patterns": [
+        "Customer feedback",
+        "Reviews",
+        "User opinion",
+        "Customer response",
+        "Feedback system"
+      ],
+      "responses": [
+        "Use feedback to improve products and services."
+      ]
+    },
+    {
+      "tag": "business_kpi",
+      "patterns": [
+        "KPIs",
+        "Business metrics",
+        "Measure success",
+        "Performance indicators",
+        "Track growth"
+      ],
+      "responses": [
+        "Monitor KPIs like revenue, profit, and customer retention."
+      ]
+    },
+    {
+      "tag": "networking",
+      "patterns": [
+        "Networking",
+        "Business connections",
+        "Meet entrepreneurs",
+        "Business events",
+        "Professional network"
+      ],
+      "responses": [
+        "Networking opens opportunities and partnerships."
+      ]
+    },
+    {
+      "tag": "mentorship",
+      "patterns": [
+        "Business mentor",
+        "Get mentor",
+        "Guidance",
+        "Entrepreneur advice",
+        "Mentorship"
+      ],
+      "responses": [
+        "Mentors provide valuable experience and insights."
+      ]
+    },
+    {
+      "tag": "startup_pitch",
+      "patterns": [
+        "Pitch business",
+        "Investor pitch",
+        "Pitch deck",
+        "Raise funds",
+        "Present idea"
+      ],
+      "responses": [
+        "A good pitch explains problem, solution, and opportunity."
+      ]
+    },
+    {
+      "tag": "innovation",
+      "patterns": [
+        "Innovate",
+        "New ideas",
+        "Creative business",
+        "Innovation strategy",
+        "Business creativity"
+      ],
+      "responses": [
+        "Innovation keeps your business competitive."
+      ]
+    },
+    {
+      "tag": "sustainability",
+      "patterns": [
+        "Sustainable business",
+        "Green business",
+        "Reduce waste",
+        "Eco friendly",
+        "Sustainability"
+      ],
+      "responses": [
+        "Sustainability improves long-term business value."
+      ]
+    },
+    {
+      "tag": "crisis_management",
+      "patterns": [
+        "Business crisis",
+        "Emergency plan",
+        "Recover losses",
+        "Downturn",
+        "Business problem"
+      ],
+      "responses": [
+        "Focus on cost control and customer retention during crises."
+      ]
+    },
+    {
+      "tag": "export_business",
+      "patterns": [
+        "Export goods",
+        "International trade",
+        "Sell abroad",
+        "Export Nigeria",
+        "Foreign market"
+      ],
+      "responses": [
+        "Research export regulations and foreign markets."
+      ]
+    },
+    {
+      "tag": "import_business",
+      "patterns": [
+        "Import goods",
+        "Bring products",
+        "Import Nigeria",
+        "Foreign suppliers",
+        "Customs"
+      ],
+      "responses": [
+        "Understand customs duties and import regulations."
+      ]
+    },
+    {
+      "tag": "agriculture_business",
+      "patterns": [
+        "Farm business",
+        "Agribusiness",
+        "Agriculture Nigeria",
+        "Farming profit",
+        "Crop business"
+      ],
+      "responses": [
+        "Agriculture offers strong opportunities in Nigeria."
+      ]
+    },
+    {
+      "tag": "retail_business",
+      "patterns": [
+        "Retail shop",
+        "Sell goods",
+        "Retail strategy",
+        "Shop business",
+        "Store management"
+      ],
+      "responses": [
+        "Focus on customer experience and pricing."
+      ]
+    },
+    {
+      "tag": "tech_business",
+      "patterns": [
+        "Tech startup",
+        "IT business",
+        "Software business",
+        "Digital startup",
+        "Tech idea"
+      ],
+      "responses": [
+        "Technology businesses scale quickly with innovation."
+      ]
+    },
+    {
+      "tag": "logistics_business",
+      "patterns": [
+        "Logistics company",
+        "Delivery business",
+        "Transport business",
+        "Courier service",
+        "Distribution"
+      ],
+      "responses": [
+        "Efficient logistics improves customer satisfaction."
+      ]
+    },
+    {
+      "tag": "restaurant_business",
+      "patterns": [
+        "Start restaurant",
+        "Food business",
+        "Catering",
+        "Food service",
+        "Restaurant plan"
+      ],
+      "responses": [
+        "Focus on hygiene, taste, and customer service."
+      ]
+    },
+    {
+      "tag": "fashion_business",
+      "patterns": [
+        "Fashion business",
+        "Clothing line",
+        "Tailoring",
+        "Boutique",
+        "Sell clothes"
+      ],
+      "responses": [
+        "Build a unique style and strong brand identity."
+      ]
+    },
+    {
+      "tag": "real_estate",
+      "patterns": [
+        "Real estate business",
+        "Property investment",
+        "Land business",
+        "Housing",
+        "Real estate Nigeria"
+      ],
+      "responses": [
+        "Real estate offers long-term investment opportunities."
+      ]
+    },
+    {
+      "tag": "transport_business",
+      "patterns": [
+        "Transport business",
+        "Taxi business",
+        "Ride hailing",
+        "Transport company",
+        "Logistics vehicles"
+      ],
+      "responses": [
+        "Maintain vehicles and ensure safety standards."
+      ]
+    },
+    {
+      "tag": "education_business",
+      "patterns": [
+        "School business",
+        "Training center",
+        "Coaching",
+        "Education services",
+        "Learning center"
+      ],
+      "responses": [
+        "Provide quality education and structured curriculum."
+      ]
+    },
+    {
+      "tag": "healthcare_business",
+      "patterns": [
+        "Clinic business",
+        "Healthcare startup",
+        "Medical services",
+        "Pharmacy",
+        "Health business"
+      ],
+      "responses": [
+        "Ensure compliance with health regulations."
+      ]
+    },
+    {
+      "tag": "beauty_business",
+      "patterns": [
+        "Salon business",
+        "Beauty services",
+        "Hair business",
+        "Makeup",
+        "Spa"
+      ],
+      "responses": [
+        "Offer excellent service and customer care."
+      ]
+    },
+    {
+      "tag": "freelancing",
+      "patterns": [
+        "Freelance work",
+        "Online jobs",
+        "Remote work",
+        "Gig economy",
+        "Self employment"
+      ],
+      "responses": [
+        "Freelancing allows flexible income opportunities."
+      ]
+    },
+    {
+      "tag": "side_hustle",
+      "patterns": [
+        "Side hustle",
+        "Extra income",
+        "Small business ideas",
+        "Part time business",
+        "Make money"
+      ],
+      "responses": [
+        "Start small and grow your side business gradually."
+      ]
+    },
+    {
+      "tag": "loan_repayment",
+      "patterns": [
+        "Repay loan",
+        "Loan repayment plan",
+        "Pay back loan",
+        "Loan schedule",
+        "Debt repayment"
+      ],
+      "responses": [
+        "Create a structured repayment plan and prioritize high-interest debts."
+      ]
+    },
+    {
+      "tag": "credit_score",
+      "patterns": [
+        "Credit score Nigeria",
+        "Improve credit",
+        "Business credit rating",
+        "Loan credibility",
+        "Creditworthiness"
+      ],
+      "responses": [
+        "Maintain good repayment history and proper financial records to improve credit score."
+      ]
+    },
+    {
+      "tag": "business_scaling",
+      "patterns": [
+        "Scale business",
+        "Grow bigger",
+        "Expand operations",
+        "Scale startup",
+        "Increase capacity"
+      ],
+      "responses": [
+        "Scaling requires systems, funding, and strong operational processes."
+      ]
+    },
+    {
+      "tag": "automation",
+      "patterns": [
+        "Automate business",
+        "Automation tools",
+        "Reduce manual work",
+        "Business automation",
+        "Digital tools"
+      ],
+      "responses": [
+        "Automation improves efficiency and reduces operational costs."
+      ]
+    },
+    {
+      "tag": "outsourcing",
+      "patterns": [
+        "Outsource work",
+        "Hire external help",
+        "Freelancers",
+        "Third party services",
+        "Contract work"
+      ],
+      "responses": [
+        "Outsourcing helps reduce costs and focus on core operations."
+      ]
+    },
+    {
+      "tag": "customer_acquisition",
+      "patterns": [
+        "Get new customers",
+        "Attract customers",
+        "Customer acquisition",
+        "Increase clients",
+        "Find buyers"
+      ],
+      "responses": [
+        "Use marketing channels and referrals to acquire customers."
+      ]
+    },
+    {
+      "tag": "lead_generation",
+      "patterns": [
+        "Generate leads",
+        "Get prospects",
+        "Sales leads",
+        "Customer pipeline",
+        "Lead strategy"
+      ],
+      "responses": [
+        "Use online ads, content marketing, and networking to generate leads."
+      ]
+    },
+    {
+      "tag": "email_marketing",
+      "patterns": [
+        "Email marketing",
+        "Send newsletters",
+        "Email campaigns",
+        "Customer emails",
+        "Mail marketing"
+      ],
+      "responses": [
+        "Email marketing helps nurture customer relationships and drive sales."
+      ]
+    },
+    {
+      "tag": "seo",
+      "patterns": [
+        "SEO Nigeria",
+        "Rank on Google",
+        "Search engine optimization",
+        "Website traffic",
+        "Google ranking"
+      ],
+      "responses": [
+        "Optimize your website with keywords and quality content."
+      ]
+    },
+    {
+      "tag": "content_marketing",
+      "patterns": [
+        "Content marketing",
+        "Create content",
+        "Business blog",
+        "Marketing content",
+        "Content strategy"
+      ],
+      "responses": [
+        "Provide valuable content to attract and engage customers."
+      ]
+    },
+    {
+      "tag": "advertising",
+      "patterns": [
+        "Run ads",
+        "Business advertising",
+        "Online ads",
+        "Promote product",
+        "Ads strategy"
+      ],
+      "responses": [
+        "Use targeted advertising to reach your ideal audience."
+      ]
+    },
+    {
+      "tag": "facebook_ads",
+      "patterns": [
+        "Facebook ads",
+        "Instagram ads",
+        "Social ads",
+        "Run Facebook campaign",
+        "Meta ads"
+      ],
+      "responses": [
+        "Social media ads help target specific customer groups."
+      ]
+    },
+    {
+      "tag": "whatsapp_business",
+      "patterns": [
+        "WhatsApp business",
+        "Sell on WhatsApp",
+        "Chat customers",
+        "WhatsApp marketing",
+        "Business messaging"
+      ],
+      "responses": [
+        "WhatsApp Business helps communicate directly with customers."
+      ]
+    },
+    {
+      "tag": "customer_experience",
+      "patterns": [
+        "Customer experience",
+        "Improve service",
+        "User experience",
+        "Client satisfaction",
+        "Customer journey"
+      ],
+      "responses": [
+        "A positive experience increases loyalty and referrals."
+      ]
+    },
+    {
+      "tag": "refund_policy",
+      "patterns": [
+        "Refund policy",
+        "Return goods",
+        "Customer refund",
+        "Refund rules",
+        "Return policy"
+      ],
+      "responses": [
+        "Have a clear refund policy to build trust with customers."
+      ]
+    },
+    {
+      "tag": "business_ethics",
+      "patterns": [
+        "Business ethics",
+        "Ethical business",
+        "Integrity",
+        "Honest business",
+        "Business values"
+      ],
+      "responses": [
+        "Maintain honesty and transparency in all business dealings."
+      ]
+    },
+    {
+      "tag": "corporate_governance",
+      "patterns": [
+        "Corporate governance",
+        "Business structure",
+        "Company control",
+        "Board management",
+        "Governance rules"
+      ],
+      "responses": [
+        "Good governance improves accountability and decision-making."
+      ]
+    },
+    {
+      "tag": "business_model",
+      "patterns": [
+        "Business model",
+        "Revenue model",
+        "Make money model",
+        "How business works",
+        "Model design"
+      ],
+      "responses": [
+        "Choose a model that fits your market and value proposition."
+      ]
+    },
+    {
+      "tag": "subscription_model",
+      "patterns": [
+        "Subscription business",
+        "Monthly payment",
+        "Recurring revenue",
+        "Subscription plan",
+        "Membership business"
+      ],
+      "responses": [
+        "Subscription models provide steady and predictable income."
+      ]
+    },
+    {
+      "tag": "dropshipping",
+      "patterns": [
+        "Dropshipping Nigeria",
+        "Sell without inventory",
+        "Online dropshipping",
+        "Supplier shipping",
+        "No stock business"
+      ],
+      "responses": [
+        "Dropshipping allows selling products without holding inventory."
+      ]
+    },
+    {
+      "tag": "wholesale_business",
+      "patterns": [
+        "Wholesale business",
+        "Bulk selling",
+        "Buy in bulk",
+        "Wholesale Nigeria",
+        "Distributor"
+      ],
+      "responses": [
+        "Wholesale focuses on bulk sales at lower margins."
+      ]
+    },
+    {
+      "tag": "retail_pricing",
+      "patterns": [
+        "Retail pricing",
+        "Shop pricing",
+        "Store price strategy",
+        "Retail margins",
+        "Selling price"
+      ],
+      "responses": [
+        "Retail pricing should cover costs and ensure profit."
+      ]
+    },
+    {
+      "tag": "discount_strategy",
+      "patterns": [
+        "Discount sales",
+        "Promo pricing",
+        "Offer discounts",
+        "Reduce price",
+        "Sales promotion"
+      ],
+      "responses": [
+        "Use discounts strategically to increase sales volume."
+      ]
+    },
+    {
+      "tag": "loyalty_program",
+      "patterns": [
+        "Customer loyalty program",
+        "Reward customers",
+        "Points system",
+        "Customer rewards",
+        "Retention program"
+      ],
+      "responses": [
+        "Loyalty programs encourage repeat purchases."
+      ]
+    },
+    {
+      "tag": "referral_program",
+      "patterns": [
+        "Referral program",
+        "Customer referrals",
+        "Invite friends",
+        "Word of mouth",
+        "Referral reward"
+      ],
+      "responses": [
+        "Encourage customers to refer others with incentives."
+      ]
+    },
+    {
+      "tag": "business_name",
+      "patterns": [
+        "Choose business name",
+        "Company name ideas",
+        "Brand name",
+        "Business naming",
+        "Name selection"
+      ],
+      "responses": [
+        "Choose a unique and memorable business name."
+      ]
+    },
+    {
+      "tag": "logo_design",
+      "patterns": [
+        "Design logo",
+        "Business logo",
+        "Brand logo",
+        "Create logo",
+        "Logo ideas"
+      ],
+      "responses": [
+        "A professional logo strengthens brand identity."
+      ]
+    },
+    {
+      "tag": "website_creation",
+      "patterns": [
+        "Create website",
+        "Business website",
+        "Build site",
+        "Online presence",
+        "Web design"
+      ],
+      "responses": [
+        "A website helps showcase your products and services."
+      ]
+    },
+    {
+      "tag": "mobile_app",
+      "patterns": [
+        "Business app",
+        "Mobile app",
+        "Develop app",
+        "App for business",
+        "Digital app"
+      ],
+      "responses": [
+        "Apps improve accessibility and customer engagement."
+      ]
+    },
+    {
+      "tag": "cybersecurity",
+      "patterns": [
+        "Cyber security",
+        "Protect business data",
+        "Online security",
+        "Hack prevention",
+        "Secure systems"
+      ],
+      "responses": [
+        "Use strong passwords and security tools to protect data."
+      ]
+    },
+    {
+      "tag": "data_analysis",
+      "patterns": [
+        "Analyze data",
+        "Business data",
+        "Data insights",
+        "Analytics",
+        "Data driven decisions"
+      ],
+      "responses": [
+        "Use data to guide strategic business decisions."
+      ]
+    },
+    {
+      "tag": "financial_projection",
+      "patterns": [
+        "Financial forecast",
+        "Project revenue",
+        "Future earnings",
+        "Business projection",
+        "Financial planning"
+      ],
+      "responses": [
+        "Estimate future revenue and expenses for planning."
+      ]
+    },
+    {
+      "tag": "investment",
+      "patterns": [
+        "Invest business",
+        "Put money",
+        "Investment opportunities",
+        "Grow capital",
+        "Business investment"
+      ],
+      "responses": [
+        "Invest wisely based on risk and return."
+      ]
+    },
+    {
+      "tag": "angel_investor",
+      "patterns": [
+        "Angel investor",
+        "Find investor",
+        "Startup investor",
+        "Private funding",
+        "Early stage funding"
+      ],
+      "responses": [
+        "Angel investors provide funding for early-stage businesses."
+      ]
+    },
+    {
+      "tag": "venture_capital",
+      "patterns": [
+        "VC funding",
+        "Venture capital",
+        "Startup funding VC",
+        "Equity funding",
+        "Large investment"
+      ],
+      "responses": [
+        "VCs invest in high-growth startups for equity."
+      ]
+    },
+    {
+      "tag": "equity_financing",
+      "patterns": [
+        "Equity funding",
+        "Sell shares",
+        "Raise equity",
+        "Ownership funding",
+        "Investor shares"
+      ],
+      "responses": [
+        "Equity financing involves giving investors ownership stake."
+      ]
+    },
+    {
+      "tag": "debt_financing",
+      "patterns": [
+        "Debt financing",
+        "Borrow money",
+        "Loans business",
+        "Debt funding",
+        "Finance with loan"
+      ],
+      "responses": [
+        "Debt financing requires repayment with interest."
+      ]
+    },
+    {
+      "tag": "financial_management",
+      "patterns": [
+        "Manage finances",
+        "Business finance",
+        "Money management",
+        "Financial control",
+        "Finance strategy"
+      ],
+      "responses": [
+        "Track income, expenses, and profits effectively."
+      ]
+    },
+    {
+      "tag": "tax_planning",
+      "patterns": [
+        "Tax planning",
+        "Reduce tax",
+        "Tax strategy",
+        "Save tax",
+        "Business tax plan"
+      ],
+      "responses": [
+        "Plan taxes to minimize liabilities legally."
+      ]
+    },
+    {
+      "tag": "audit",
+      "patterns": [
+        "Business audit",
+        "Financial audit",
+        "Check records",
+        "Audit process",
+        "Verify accounts"
+      ],
+      "responses": [
+        "Audits ensure financial accuracy and compliance."
+      ]
+    },
+    {
+      "tag": "compliance",
+      "patterns": [
+        "Regulatory compliance",
+        "Follow rules",
+        "Business compliance",
+        "Legal requirements",
+        "Government rules"
+      ],
+      "responses": [
+        "Comply with regulations to avoid penalties."
+      ]
+    },
+    {
+      "tag": "export_documentation",
+      "patterns": [
+        "Export documents",
+        "Shipping papers",
+        "Export license",
+        "Trade documents",
+        "Export requirements"
+      ],
+      "responses": [
+        "Ensure proper documentation for international trade."
+      ]
+    },
+    {
+      "tag": "import_duties",
+      "patterns": [
+        "Import duties",
+        "Customs fees",
+        "Import tax",
+        "Shipping tax",
+        "Nigeria customs"
+      ],
+      "responses": [
+        "Understand duties and taxes before importing goods."
+      ]
+    },
+    {
+      "tag": "warehouse_management",
+      "patterns": [
+        "Warehouse",
+        "Storage system",
+        "Goods storage",
+        "Inventory warehouse",
+        "Stock room"
+      ],
+      "responses": [
+        "Organize warehouses for efficient operations."
+      ]
+    },
+    {
+      "tag": "transport_cost",
+      "patterns": [
+        "Transport cost",
+        "Delivery expenses",
+        "Logistics cost",
+        "Shipping price",
+        "Transport fees"
+      ],
+      "responses": [
+        "Optimize routes and negotiate to reduce costs."
+      ]
+    },
+    {
+      "tag": "fuel_cost",
+      "patterns": [
+        "Fuel cost",
+        "Transport fuel",
+        "Fuel expenses",
+        "Petrol cost",
+        "Diesel cost"
+      ],
+      "responses": [
+        "Monitor fuel usage and reduce waste."
+      ]
+    },
+    {
+      "tag": "inflation",
+      "patterns": [
+        "Inflation Nigeria",
+        "Rising prices",
+        "Cost increase",
+        "Price rise",
+        "Inflation effect"
+      ],
+      "responses": [
+        "Adjust pricing and cost strategy during inflation."
+      ]
+    },
+    {
+      "tag": "exchange_rate",
+      "patterns": [
+        "Exchange rate",
+        "Dollar to naira",
+        "Currency changes",
+        "Forex rate",
+        "Foreign exchange"
+      ],
+      "responses": [
+        "Monitor exchange rates for import/export businesses."
+      ]
+    },
+    {
+      "tag": "economic_policy",
+      "patterns": [
+        "Government policy",
+        "Economic policy",
+        "Nigeria policy",
+        "Business regulation",
+        "Policy changes"
+      ],
+      "responses": [
+        "Stay updated on policies affecting your business."
+      ]
+    },
+    {
+      "tag": "business_growth",
+      "patterns": [
+        "Grow business",
+        "Increase profit",
+        "Expand revenue",
+        "Business success",
+        "Growth tips"
+      ],
+      "responses": [
+        "Focus on strategy, efficiency, and customer satisfaction."
+      ]
+    },
+    {
+      "tag": "exit_strategy",
+      "patterns": [
+        "Exit business",
+        "Sell business",
+        "Close business",
+        "Business exit",
+        "Shutdown plan"
+      ],
+      "responses": [
+        "Plan exit strategies like selling or transferring ownership."
+      ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [
+        "what do you mean",
+        "i don't get it",
+        "huh",
+        "random stuff",
+        "tell me something",
+        "blah blah",
+        "not sure what to ask",
+        "something else",
+        "other",
+        "xyzzy"
+      ],
+      "responses": [
+        "🤔 I'm not sure I understood that. Try asking about business registration, funding, marketing, pricing, or taxes.",
+        "❓ Could you rephrase that? I can help with topics like sales, cash flow, compliance, and more.",
+        "🙋 I specialise in Nigerian SME advice. Ask me about funding, marketing, legal compliance, or growth strategies."
+      ]
+    }
+  ]
+}
